@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+:host {
+    font-family: montserrat;
+    padding: 10% 30% 0 30%;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10%;
+}
+p {
+    margin-bottom: 2rem;
+    text-align : justify;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: #161647;
+}
+
+fa-icon:hover {
+    background-color: #161647;
+    color: white;
+    padding: 1vh;
+    transition: all 270ms ease-out;
+}
+.icon {
+    font-size: 2rem;
+    margin: 0 1rem 0 0;
+}
+@media screen and (max-width: 475px) {
+    :host {
+        margin-top: 15%;
+        padding: 10% 10% 0 10%;
+        p {
+            font-size: small;
+            margin-top: 20%;
+        }
+    }
+}
