@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Oswald:wght@700&display=swap');
 :host {
-  font-family: montserrat;
+  font-family: "Montserrat";
 }
 h1 {
-  font-family: montserrat;
+  font-family: "Montserrat";
   text-align: center;
   
 }
@@ -22,7 +21,7 @@ img {
   place-items: center;
   margin-inline: 1.5rem;
   padding-block: 5rem;
-  font-family: montserrat;
+  font-family: "Montserrat";
 }
 
 .card__container {
@@ -82,7 +81,7 @@ ul li {
   right: 0;
   margin-inline: auto;
   opacity: 0;
-
+  font-family: "MontserratItalique";
   z-index: 3;
   color: white;
 }
@@ -95,7 +94,7 @@ ul li {
 .card__title {
   font-weight: 700;
   margin-bottom: 0.75rem;
-  font-family: montserrat;
+  font-family:"Montserrat";
 }
 
 .card__button {
